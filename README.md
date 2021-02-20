@@ -2,14 +2,17 @@
 
 **How to setup**
 
-## Buildozer Docker image
+## Folow the 3 steps
 
-A Dockerfile is available to use buildozer through a Docker environment.
+- Download the source code:
+-     git clone https://github.com/thanasispe/simple-guess-game.git
+      
 
-- Build with:
+- cd into the source directory:
+-     cd simple-guess-game/src
 
-      docker build --tag=buildozer .
+- Compile the source code:
+-     make set all
 
-- Run with:
-
-      docker run --volume "$(pwd)":/home/user/hostcwd buildozer --version
+- Run the game:
+-     cd ../bin && ./guess-game
