@@ -1,1 +1,2 @@
-# simple-guess-game
+# Simple-guess-game
+
