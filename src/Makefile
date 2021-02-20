@@ -4,7 +4,7 @@ FLAGS = -Wall -g
 S=set
 
 $(TARGET):$(SOURCES)
-	g++ $(FLAGS) $(SOURCES) -o $(TARGET)
+	cc $(FLAGS) $(SOURCES) -o $(TARGET)
 
 set:$(TARGET)
 	mv $(TARGET) ../bin
