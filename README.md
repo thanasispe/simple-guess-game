@@ -2,17 +2,14 @@
 
 **How to setup**
 
-step **1**
-'''python
-git clone https://github.com/thanasispe/simple-guess-game.git
-'''
+## Buildozer Docker image
 
-step **2**
-'''python
-cd simple-guess-game/src
-'''
+A Dockerfile is available to use buildozer through a Docker environment.
 
-step **3**
-'''python
-make
-'''
+- Build with:
+
+      docker build --tag=buildozer .
+
+- Run with:
+
+      docker run --volume "$(pwd)":/home/user/hostcwd buildozer --version
