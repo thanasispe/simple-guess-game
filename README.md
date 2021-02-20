@@ -3,16 +3,16 @@
 **How to setup**
 
 step **1**
-'''shell
+'''bash
 git clone https://github.com/thanasispe/simple-guess-game.git
 '''
 
 step **2**
-'''shell
+'''bash
 cd simple-guess-game/src
 '''
 
 step **3**
-'''shell
+'''bash
 make 
 '''
